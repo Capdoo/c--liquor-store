@@ -31,7 +31,16 @@ update Productos set Nombre=@nombre,Descripcion=@descripcion, Marca=@marca, Prec
 where Id=@id
 go
 
+/*Creacion del procedimiento almacenado Eliminar*/
+create procedure EliminarProducto
+@id int
+as
+delete from Productos where Id=@id
+go
+
+
 /*Pruebas de los procedimientos */
 exec MostrarProductos
 exec InsertarProductos 'FourLoko','1 litro','Monster',9.00,50
 exec EditarProductos 'Pizza','familiar','TelePizza',50,10,11
+exec exec EliminarProducto 10
