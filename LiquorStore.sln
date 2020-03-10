@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaDatos", "CapaDatos\CapaDatos.csproj", "{735FECC6-2384-417F-B3AA-9C90C93660F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaNegocio", "CapaNegocio\CapaNegocio.csproj", "{565AF320-11C7-4501-9CB9-82885A560255}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapaView", "CapaView\CapaView.csproj", "{494BE4D1-1B65-4785-8D9B-44C212198796}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{735FECC6-2384-417F-B3AA-9C90C93660F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{735FECC6-2384-417F-B3AA-9C90C93660F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{735FECC6-2384-417F-B3AA-9C90C93660F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{735FECC6-2384-417F-B3AA-9C90C93660F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{565AF320-11C7-4501-9CB9-82885A560255}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{565AF320-11C7-4501-9CB9-82885A560255}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{565AF320-11C7-4501-9CB9-82885A560255}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{565AF320-11C7-4501-9CB9-82885A560255}.Release|Any CPU.Build.0 = Release|Any CPU
+		{494BE4D1-1B65-4785-8D9B-44C212198796}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{494BE4D1-1B65-4785-8D9B-44C212198796}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{494BE4D1-1B65-4785-8D9B-44C212198796}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{494BE4D1-1B65-4785-8D9B-44C212198796}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73A10CBC-C267-4730-A8C1-6F75CA502C2C}
+	EndGlobalSection
+EndGlobal
